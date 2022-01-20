@@ -2,6 +2,16 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionTest", "RecursionTest\RecursionTest.csproj", "{C0CAF999-984C-42B0-A76D-DDE2749569AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grammar", "Grammar\Grammar.csproj", "{7608D095-8353-4CA3-A46A-2151945DDA20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trees", "Trees", "{194E80BA-9BCB-4DBD-B0F8-DC82F605AEE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BstTree", "Trees\BstTree\BstTree.csproj", "{DA23962B-A845-4BD9-B3EF-82AD96ED6CF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode", "LeetCode", "{846BB41F-4D61-48C7-B6A4-39FC1577D9C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateParenthesis_22", "LeetCode\GenerateParenthesis_22\GenerateParenthesis_22.csproj", "{E5E55BDF-9851-42D9-A991-2CD53DA20C87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +22,21 @@ Global
 		{C0CAF999-984C-42B0-A76D-DDE2749569AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0CAF999-984C-42B0-A76D-DDE2749569AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0CAF999-984C-42B0-A76D-DDE2749569AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7608D095-8353-4CA3-A46A-2151945DDA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7608D095-8353-4CA3-A46A-2151945DDA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7608D095-8353-4CA3-A46A-2151945DDA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7608D095-8353-4CA3-A46A-2151945DDA20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA23962B-A845-4BD9-B3EF-82AD96ED6CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA23962B-A845-4BD9-B3EF-82AD96ED6CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA23962B-A845-4BD9-B3EF-82AD96ED6CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA23962B-A845-4BD9-B3EF-82AD96ED6CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E55BDF-9851-42D9-A991-2CD53DA20C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E55BDF-9851-42D9-A991-2CD53DA20C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E55BDF-9851-42D9-A991-2CD53DA20C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E55BDF-9851-42D9-A991-2CD53DA20C87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA23962B-A845-4BD9-B3EF-82AD96ED6CF4} = {194E80BA-9BCB-4DBD-B0F8-DC82F605AEE0}
+		{E5E55BDF-9851-42D9-A991-2CD53DA20C87} = {846BB41F-4D61-48C7-B6A4-39FC1577D9C7}
 	EndGlobalSection
 EndGlobal
