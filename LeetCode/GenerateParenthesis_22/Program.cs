@@ -12,16 +12,17 @@ namespace GenerateParenthesis_22
 
         private static List<string> GenerateParenthesis(int n)
         {
-            _generate(0, 2 * n, "");
-            return null;
+            List<string> res = new List<string>();
+            _generate(0, 0, n, "", res);
+            return res;
         }
 
-        private static void _generate(int level, int max, string s)
+        private static void _generate(int left, int right, int n, string s, List<string> res)
         {
             //递归终结者
-            if (level >= max)
+            if (left == n && right == n)
             {
-                Console.WriteLine(s);
+                res.Add(s);
                 return;
             }
 
@@ -31,8 +32,11 @@ namespace GenerateParenthesis_22
 
             //进入递归下一层
 
-            _generate(level + 1, max, s1);
-            _generate(level + 1, max, s2);
+            if (left < n)
+                _generate(left + 1, right, n, s1, res);
+
+            if (left > right)
+                _generate(left, right + 1, n, s2, res);
 
             //清理这一层资源
         }
